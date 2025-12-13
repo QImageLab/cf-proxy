@@ -512,7 +512,7 @@ function createHomeResponse(proxyDomain) {
         </script>
 
         <div class="footer">
-            <p>部署在 Cloudflare Workers • 全球CDN加速 • 自动HTTPS</p>
+            <p>Cloudflare Workers • <a href="https://github.com/QImageLab/cf-proxy" target="_blank" style="color: #667eea; text-decoration: none;">GitHub</a></p>
         </div>
     </div>
 </body>
