@@ -1,0 +1,16 @@
+name = "proxy"
+main = "src/worker.js"
+compatibility_date = "2024-01-01"
+
+# Workers 配置
+workers_dev = true
+
+# 路由配置说明：
+# 推荐在 Cloudflare Dashboard 中配置自定义域名和路由
+# 这样 fork 后无需修改任何配置文件
+#
+# 如果你想通过 wrangler.toml 配置路由，取消下面的注释并修改：
+# workers_dev = false
+# routes = [
+#   { pattern = "your-domain.com/*", zone_name = "your-zone.com" }
+# ]
