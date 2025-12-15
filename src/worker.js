@@ -443,6 +443,11 @@ function createHomeResponse(proxyDomain) {
             <em>示例：</em> https://${proxyDomain}/webproxy/example.com
         </div>
 
+        <div class="route" style="border-left-color: #f59e0b;">
+            <strong>🚀 Git 加速：</strong> 加速 GitHub/GitLab 等仓库克隆<br>
+            <em>示例：</em> git clone https://${proxyDomain}/proxy/github.com/QImageLab/cf-proxy.git
+        </div>
+
         <script>
         let currentProxyUrl = '';
 

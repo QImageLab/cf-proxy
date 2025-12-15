@@ -62,6 +62,9 @@ curl https://my-proxy.your-account.workers.dev/httpproxy/httpbin.org/get
 
 # 带端口代理
 curl https://my-proxy.your-account.workers.dev/proxyport/example.com:8443/api
+
+# 加速 GitHub 仓库克隆
+git clone https://my-proxy.your-account.workers.dev/proxy/github.com/QImageLab/cf-proxy.git
 ```
 
 ### 在代码中使用
